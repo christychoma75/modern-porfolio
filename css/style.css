@@ -385,7 +385,7 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    background: url("..dist//img/profil-img (3).jpg");
+    background: url("/dist/img/small-profil-img.jpg");
     width: 150px;
     height: 150px;
   }
@@ -405,11 +405,21 @@ main#home h1 {
 }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
+  main {
+    padding: 2rem;
+  }
+
+  #home h1 {
     margin-top: 10vh;
   }
 
-  .projects {
-    grid-template-columns: 1fr;
+  .lg-heading {
+    margin-top: 1rem;
+    font-size: 5rem;
   }
+}
+
+.projects {
+  grid-template-columns: 1fr;
+}
 }
