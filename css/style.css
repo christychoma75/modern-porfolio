@@ -385,7 +385,7 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    background: url("..dist//img/profil-img (3).jpg");
+    background: url("/dist/img/small-profil-img.jpg");
     width: 150px;
     height: 150px;
   }

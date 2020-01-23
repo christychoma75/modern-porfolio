@@ -6,7 +6,7 @@
   "homepage": "https://christychoma75.github.io/modern-porfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css",
+    "scss": "node-sass --watch scss -o css dist/css --recursive",
     "deploy": "gh-pages -d dist"
   },
   "author": "Christy Choma",
